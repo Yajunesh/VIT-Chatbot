@@ -127,6 +127,8 @@ async def root():
     </html>
     """
 
+"""Hello there"""
+
 @app.post("/ask")
 def ask_question(req: QueryRequest):
     question = req.question
